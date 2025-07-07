@@ -65,10 +65,10 @@ img{
 }
 
 .header-inner {
-  max-width: 1200px;
+  max-width: full;
   height: 110px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
   padding-left: 40px;
   padding-right: 40px;
   display: flex;
