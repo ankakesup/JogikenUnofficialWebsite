@@ -1,0 +1,62 @@
+.page_title{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page_title h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.description_title{
+    font-size: 32px;
+    margin-left: 15%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.description{
+    font-size: 16px;
+    margin-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 8px;
+}
+
+.event_block ul {
+    list-style-type: disc;
+    margin-bottom: 30px;
+    padding-left: 4.5em;
+}
+
+.event_list{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    
+}
+
+.event_block{
+    margin-bottom: 30px;
+}
+
+.event_month{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.event_list li{
+    font-size: 20px;
+    font-weight: normal; 
+}
+
+.event_list .description{
+    margin-left: 0;
+}
