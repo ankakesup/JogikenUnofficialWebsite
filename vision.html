@@ -2,12 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8"> <!--文字コードの指定-->
-        <title>common</title> <!--ページのタイトル-->
+        <title>情報技術研究会(偽)｜情技研について</title> <!--ページのタイトル-->
         <meta name="description" content="ページの概要"> <!--ページの概要-->
         <meta name="viewport" content="width=device-width"> <!--表示領域の設定-->
         <link href="css/common.css" rel="stylesheet"> <!--CSSの読み込み-->
         <link href="css/vision.css" rel="stylesheet"> <!--CSSの読み込み-->
         <script src="js/toggle-menu.js"></script> <!--JavaScriptの読み込み-->
+        <script src="js/vision.js"></script>
     </head>
 
     <body>
@@ -34,9 +35,12 @@
         <!--main ここから-->
         <main class="main">
             <div class="element">
-                <h2>サークル理念</h2>
-                <div>
-
+                <h2>サークル理念ガチャ <button id="vision-button" onclick="vision()">ガチャを回す</button></h2>
+                <div class="element-inner">
+                    サークル理念をランダムで表示するよ!!　　
+                    (9種類あるからいっぱい回して探してみてね)
+                </div>
+                <div id="vision-result">
                 </div>
             </div>
             
@@ -45,22 +49,41 @@
                 <div>
                     情報技術研究会では，プログラミングや情報技術に関する様々な活動を行っています。
                     主な活動内容は以下の通りです。
+                    <div><a href="description.html" class="link">もっと詳しく >> </a></div>
+
                 </div>
             </div>
 
             <div class="element">
                 <h2>資格取得サポート</h2>
-                <div>
-                    資格取得のサポートも行っており，
-                    IPAの応用情報技術者試験や高度情報処理技術者試験に挑戦する部員には支援金(図書カード)を支給しています。
-                    また，資格取得のための勉強会も定期的に開催しています。
+                <div class="element-inner">
+                    <div class="element-inner-content">
+                        資格取得のサポートも行っており，
+                        IPAの応用情報技術者試験や高度情報処理技術者試験に挑戦する部員には支援金(図書カード)を支給しています。<br>
+                        また，資格取得のための勉強会も定期的に開催しています。
+                    </div>
+                    <div class="element-inner-image">
+                        <img src="images/vision/tyosyoCard.jpg" alt="資格取得サポートの様子" width="100%">
+                        <blank height="10px">
+                        <p>今年度の春季に支給した図書カード</p>
+                    </div>
                 </div>
             </div>
 
             <div class="element">
-                <h2>就活サポート</h2>
-                <div>
-
+                <h2>企業とのつながり</h2>
+                <div class="element-inner">
+                    <div class="element-inner-content">
+                        情報技術研究会では，スポンサーの企業様と連携して活動を行っています。<br>
+                        例えば，企業様サポートの下ハッカソンを開催したり，技術セミナーを実施したりしています。<br>
+                        社会で活躍されているエンジニアの方々からのフィードバックを受けることで，
+                        技術力の向上を図るとともに，実社会に出ても通用するスキルを身につけることができます。
+                    </div>
+                    <div class="element-inner-image">
+                        <img src="images/vision/tower.jpg" alt="資格取得サポートの様子" width="100%">
+                        <blank height="10px">
+                        <p>タワー75 15階のあおぞらラウンジで食べられる<br>チキンタワーハヤシライス</p>
+                    </div>
                 </div>
             </div>
         </main>

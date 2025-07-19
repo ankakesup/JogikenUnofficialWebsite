@@ -50,12 +50,13 @@
 }
 
 .element-flex {
-  /* 真ん中を開けたい */
   padding-top: 20px;
   padding-bottom: 20px;
-  height: 300px;
+  height: auto;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 2px powderblue;
 
   @media(max-width: 800px){
     padding-top: 20px;
@@ -68,7 +69,7 @@
 .element-flex-content {
   padding-left: 40px;
   padding-right: 40px;
-  width: 45%;
+  width: 48%;
   margin-left: 0px;
   margin-right: 0px;
 
@@ -79,7 +80,6 @@
     margin-left: 0px;
     margin-right: 0px;
   }
-  
 }
 .reverse {
   flex-direction: row-reverse;
@@ -91,6 +91,7 @@ h2{
   line-height: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-bottom: solid 3px orange;
 
   @media(max-width: 800px){
     line-height: 32px;
@@ -106,6 +107,11 @@ p {
     line-height: 24px;
   }
 }
+.element-flex-content img{
+  width: 100%;
+  max-height: 260px;
+  align-items: center;
+}
 
 .element{
   padding-top: 20px;
@@ -115,6 +121,7 @@ p {
   height: 300px;
   display: flex;
   flex-direction: column;
+  border-bottom:  1px powderblue;
 
   @media(max-width: 800px){
     padding-left: 20px;
@@ -122,37 +129,17 @@ p {
   }
 }
 
-.link {
-  font-size: 21px;
-  color: #4040FF;
-  text-decoration: none;
-}
-.link:hover {
-  color: #FF0000;
+.twitter-follow-button{
+  margin-left: 10px;
+
+  @media(max-width: 800px){
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 100%;
+  }
 }
 
-/* @media(max-width: 800px){
-  .element{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    flex-direction: column;
-  } */
-  /* .element-flex { */
-    /* 真ん中を開けたい */
-    /* padding-top: 20px;
-    padding-bottom: 20px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  }
-  .element-flex-content {
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-} */
+.align-center {
+  text-align: center;
+}

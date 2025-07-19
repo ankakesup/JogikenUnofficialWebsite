@@ -65,6 +65,17 @@ img{
   color: #000000;
 }
 
+/* 以下，個人的に追加 */
+.link {
+  font-size: 21px;
+  color: #4040FF;
+  text-decoration: none;
+}
+.link:hover {
+  color: #FF0000;
+}
+
+
 @media(max-width: 800px){
   .site-menu ul {
     display: block;
