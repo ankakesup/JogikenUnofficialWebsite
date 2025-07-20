@@ -1,43 +1,5 @@
 @charset "utf-8";
 
-.first-view {
-  height: calc(100vh - 110px);
-  background-image: url(../images/index/bg_main.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-}
-
-.first-view-text{
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 40px;
-  padding-bottom: 80px;
-  color: #ffffff;
-  font-weight: bold;
-  text-shadow: 1px 1px 10px #4b2c14;
-}
-
-.first-view-text h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 56px;
-  line-height: 72px;
-}
-
-.first-view-text p {
-  font-size: 18px;
-  margin-top: 20px;
-}
-
-.lead{
-  max-width: 1200px;
-  margin: 60px auto;
-}
-
 /* Common CSS styles */
 *,
 ::before,
@@ -102,6 +64,17 @@ img{
   font-style: normal;
   color: #000000;
 }
+
+/* 以下，個人的に追加 */
+.link {
+  font-size: 21px;
+  color: #4040FF;
+  text-decoration: none;
+}
+.link:hover {
+  color: #FF0000;
+}
+
 
 @media(max-width: 800px){
   .site-menu ul {
