@@ -143,16 +143,15 @@ img{
   }
 
   .footer-logo {
-    margin-top: 60px;
+    margin-top: 20px;
   }
 
   .copyright {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 }
 
 .footer {
-  color: #ffffff;
   background-color: #aaffff;
   padding-top: 30px;
   padding-bottom: 15px;
@@ -164,11 +163,11 @@ img{
 .footer-logo{
   display: block;
   width: 235px;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .copyright {
   font-size: 14px;
   font-weight: bold;
-  margin-top: 90px;
+  margin-top: 40px;
 }
